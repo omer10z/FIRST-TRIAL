@@ -8,18 +8,18 @@ import { FaStar } from "react-icons/fa";
 const Testimonial = () => {
   return (
     <div className="relative bg-[#353535] min-h-[130vh] flex flex-col justify-center items-center p-8 mt-12">
-      <h1 className='text-2xl font-sans text-center mb-6' style={{ color: '#c3c3c3' }}>Testimonial</h1>
+      <h1 className='text-2xl font-poppins text-center mb-6' style={{ color: '#c3c3c3' }}>Testimonial</h1>
 
       <div className="flex flex-col items-center mb-[2rem]">
-        <p className='text-white font-bold text-6xl text-center'>What Our Customer Says</p>
+        <p className='text-white font-bold font-poppins text-6xl text-center'>What Our Customer Says</p>
         <div className="flex mt-20 ml-16 ">
           {[...Array(5)].map((_, index) => (
-            <FaStar key={index} className="text-[#C3BBAF] text-3xl mx-1" />
+            <FaStar key={index} className="text-[#C3BBAF]  text-3xl mx-1" />
           ))}
         </div>
       </div>
 
-      <p className='text-white text-2xl font-bold text-right mb-2 mr-10 ml-[29rem]'>We’ve used web design agency for the last five</p>
+      <p className='text-white text-2xl font-bold text-right mb-2 mr-10 ml-[29rem] '>We’ve used web design agency for the last five</p>
       <p className='text-white text-2xl font-bold text-right mb-2 mr-1 ml-[29rem]'>years. We can't understand how we've been living</p>
       <p className='text-white text-2xl font-bold text-right mb-2 mr-1 ml-[31rem]'>without web design agency. I am so pleased with this</p>
       <p className='text-white text-2xl font-bold text-center mb-2 mr-0 ml-[29rem]'>product. Absolutely wonderful! You won't regret it.</p>

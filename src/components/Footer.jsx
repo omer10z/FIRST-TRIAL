@@ -13,10 +13,10 @@ const Footer = () => {
       <div className="flex flex-wrap justify-between w-full max-w-[1218px]">
         {/* Brand Section */}
         <div className="flex flex-col w-1/4 mt-10">
-          <h1 className="text-white font-bold text-xl text-left mt-5">
+          <h1 className="text-white font-poppins font-bold text-xl text-left mt-5">
             DESIGN HAVEN
           </h1>
-          <p className="text-gray-200 text-[14px] mt-4 mr-8 font-light ">
+          <p className="text-gray-200 text-[12px] font-poppins mt-4 mr-8 font-light ">
             An interior agency plays a crucial role in<br />
             transforming interior spaces into functional,<br />
             aesthetically pleasing, and personalized<br />
@@ -26,29 +26,29 @@ const Footer = () => {
 
         {/* About Us Section */}
         <div className="w-1/4 mt-14 ">
-          <h2 className="text-white font-bold text-lg ml-10 ">About Us</h2>
+          <h2 className="text-white font-bold font-poppins text-lg ml-10 ">About Us</h2>
           <div className="mt-4">
             <a
               href="#our-history"
-              className="text-white text-sm font-medium block mb-6 ml-10"
+              className="text-white text-sm  font-poppins font-medium block mb-6 ml-10"
             >
               Our History
             </a>
             <a
               href="#why-us"
-              className="text-white text-sm font-medium block mb-4 ml-10"
+              className="text-white text-sm font-poppins font-medium block mb-4 ml-10"
             >
               Why Us
             </a>
             <a
               href="#our-users"
-              className="text-white text-sm font-medium block mb-4 ml-10"
+              className="text-white text-sm font-poppins font-medium block mb-4 ml-10"
             >
               Our Users
             </a>
             <a
               href="#our-values"
-              className="text-white text-sm font-medium block mb-4 ml-10"
+              className="text-white text-sm font-poppins font-medium block mb-4 ml-10"
             >
               Our Values
             </a>
@@ -57,29 +57,29 @@ const Footer = () => {
 
         {/* Quick Links Section */}
         <div className="w-1/4 mt-14">
-          <h2 className="text-white font-bold text-lg text-left">Quick Links</h2>
+          <h2 className="text-white font-bold font-poppins text-lg text-left">Quick Links</h2>
           <div className="mt-4">
             <a
               href="Home"
-              className="text-white text-sm font-medium block mb-6"
+              className="text-white text-sm font-medium font-poppins block mb-6"
             >
               Home
             </a>
             <a
               href="#About-us"
-              className="text-white text-sm font-medium block mb-4"
+              className="text-white text-sm font-medium font-poppins block mb-4"
             >
               About Us
             </a>
             <a
               href="Products"
-              className="text-white text-sm font-medium block mb-4"
+              className="text-white text-sm font-medium font-poppins block mb-4"
             >
               Products
             </a>
             <a
               href="Blogs"
-              className="text-white text-sm font-medium block mb-4"
+              className="text-white text-sm font-medium font-poppins block mb-4"
             >
               Blogs
             </a>
@@ -88,20 +88,20 @@ const Footer = () => {
 
         {/* Newsletter Signup Section */}
         <div className="w-1/4 mt-14">
-          <h2 className="text-white font-bold text-lg text-left">
+          <h2 className="text-white font-poppins font-bold text-lg text-left">
             Newsletter Signup
           </h2>
-          <p className="text-gray-200 text-sm font-light text-left mt-4">
+          <p className="text-gray-200 text-sm font-poppins font-light text-left mt-4">
             Subscribe to our newsletter to receive
           </p>
-          <p className="text-gray-200 text-sm font-light text-left">
+          <p className="text-gray-200 text-sm font-poppins font-light text-left">
             updates on the latest news!
           </p>
           <div className="mt-6 flex items-center">
             <input
               type="email"
               placeholder="Your email address"
-              className="p-2 rounded-l-md focus:outline-none"
+              className="p-2 rounded-l-md font-poppins focus:outline-none"
               style={{
                 border: "1px solid #fff",
                 borderRight: "none",
@@ -122,7 +122,7 @@ const Footer = () => {
 
       {/* Horizontal Line */}
       <div className="w-full flex justify-center">
-        <hr className="my-8 border-t border-white max-w-[1218px] w-full" />
+        <hr className="my-8 border-t border-white max-w-[1250px] w-full" />
       </div>
 
       {/* Social Media Icons Section */}
@@ -134,14 +134,14 @@ const Footer = () => {
           <a href="#" className="text-[#c4bbaf] text-6xl">
             <TiSocialTwitterCircular />
           </a>
-          <a href="#" className="text-[#c4bbaf] text-5xl mt-1">
+          <a href="#" className="text-[#c4bbaf]  text-5xl mt-1">
             <FaFacebook />
           </a>
           <a href="#" className="text-[#c4bbaf] text-6xl">
             <TiSocialInstagramCircular />
           </a>
         </div>
-        <p className="text-[#c4bbaf] font-semibold text-sm m mb-20">
+        <p className="text-[#c4bbaf] font-semibold font-poppins  text-sm m mb-20">
           ©️ 2024 Design Haven, All rights reserved.
         </p>
       </div>
