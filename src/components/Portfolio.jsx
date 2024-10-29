@@ -7,7 +7,7 @@ import interiorimg from "../assets/interiordesign.png";
 
 const Portfolio = () => {
   return (
-    <div className='bg-[#f8f7f6] w-full '>
+    <div className='bg-[#f8f7f6] w-full'>
       <h1 className="mt-20 pt-20 mb-6 h-[18vh] space-x-6 font-poppins ml-32 pl-2 text-[18px] text-[#544F4C]">Our Portfolio</h1>
       <div className="ml-[8.4rem] flex flex-col items-start -mt-6">
         <div className="flex items-center justify-between w-full pr-10"> 
@@ -66,8 +66,8 @@ const Portfolio = () => {
           <p className="text-gray-500 ml-2 font-poppins">We offer modern and classic designs for any room.</p>
         </div>
       </div>
-      <div className="flex justify-center mt-8">
-        <button className="border-2 border-black bg-[#a09185] text-black font-semibold rounded-full py-2 px-6 hover:bg-gray-400 transition duration-200">
+      <div className="flex justify-center mt-24 mb-10">
+        <button className="border-2 border-black bg-[#a09185] mb-10 text-black font-semibold rounded-full py-2 px-6 hover:bg-gray-400 transition duration-200">
           Visit Our Portfolio
         </button>
       </div>

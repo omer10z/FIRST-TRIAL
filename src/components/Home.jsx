@@ -20,16 +20,18 @@ const Home = () => {
           <img
             src={Image4}
             alt="Space"
-            className="w-[470px] h-[70vh] md:h-[60vh] object-cover rounded-lg -ml-[2.2rem] shadow-lg"
+            className="w-[470px] h-[70vh] md:h-[60vh] object-cover rounded-3xl -ml-[2.3rem] shadow-lg"
           />
         </div>
         <div className="flex-1  text-center md:text-left ">
-        <h1 className="text-white    font-poppins font-bold leading-tight ">
-  <span className="block -mb-[0.5rem] text-[64px]  ">Unleash Your</span>
-  <span className="block  text-[62px]">Space's Potential</span>
-</h1>
+          <h1 className="text-white    font-poppins font-bold leading-tight ">
+            <span className="block -mb-[0.5rem] text-[64px]  ">
+              Unleash Your
+            </span>
+            <span className="block  text-[62px]">Space's Potential</span>
+          </h1>
 
-          <p className="text-[#CFCFCF] text-[18px] text-sm font-extralight md:text-xl mt-10">
+          <p className="text-[#CFCFCF]  text-sm font-extralight md:text-xl mt-10">
             Interior design is a dynamic field that combines creativity with
             technical expertise. Successful interior designers stay updated on
             design trends, materials, and technologies to deliver innovative and
@@ -37,7 +39,7 @@ const Home = () => {
           </p>
 
           <div className="mt-12 flex items-center space-x-2">
-            <button className="border bg-[#c4bbaf] text-[18px] font-poppins  px-6 py-4 rounded-full font-semibold hover:bg-gray-300 hover:text-gray-900 transition">
+            <button className="border bg-[#c4bbaf] text-[18px] font-poppins  px-5 py-4 rounded-full font-semibold hover:bg-gray-300 hover:text-gray-900 transition">
               Explore Now
             </button>
             <div className="flex items-center space-x-0">
@@ -59,8 +61,12 @@ const Home = () => {
             </div>
 
             <div className="flex flex-col items-center">
-              <h1 className="text-[26px] text-white font-bold font-poppins mr-20">750+</h1>
-              <p className="text-gray-300  text-[16px] font-poppins ">Happy customers</p>
+              <h1 className="text-[26px] text-white font-bold font-poppins mr-20">
+                750+
+              </h1>
+              <p className="text-gray-300  text-[16px] font-poppins ">
+                Happy customers
+              </p>
             </div>
           </div>
         </div>

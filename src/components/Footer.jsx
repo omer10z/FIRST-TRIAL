@@ -9,46 +9,51 @@ import { FaFacebook } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="relative bg-[#353535] min-h-[50vh] flex flex-col justify-start items-center p-8 mt-10">
+    <div className="relative bg-[#353535] min-h-[50vh] flex flex-col justify-start items-center p-8 ">
       <div className="flex flex-wrap justify-between w-full max-w-[1218px]">
         {/* Brand Section */}
         <div className="flex flex-col w-1/4 mt-10">
-          <h1 className="text-white font-poppins font-bold text-xl text-left mt-5">
+          <h1 className="text-white font-poppins  text-xl text-left mt-5">
             DESIGN HAVEN
           </h1>
-          <p className="text-gray-200 text-[12px] font-poppins mt-4 mr-8 font-light ">
-            An interior agency plays a crucial role in<br />
-            transforming interior spaces into functional,<br />
-            aesthetically pleasing, and personalized<br />
+          <p className="text-gray-200 text-[12.6px] font-poppins mt-4 mr-8 font-light ">
+            An interior agency plays a crucial role in
+            <br />
+            transforming interior spaces into functional,
+            <br />
+            aesthetically pleasing, and personalized
+            <br />
             environments.
           </p>
         </div>
 
         {/* About Us Section */}
-        <div className="w-1/4 mt-14 ">
-          <h2 className="text-white font-bold font-poppins text-lg ml-10 ">About Us</h2>
-          <div className="mt-4">
+        <div className="w-1/4 mt-14 space-x-24  ">
+          <h2 className="text-white font-semibold font-poppins text-lg ml-[8.4rem] ">
+            About Us
+          </h2>
+          <div className="mt-4 pt-6">
             <a
               href="#our-history"
-              className="text-white text-sm  font-poppins font-medium block mb-6 ml-10"
+              className="text-white text-sm  font-poppins  block mb-6 ml-10"
             >
               Our History
             </a>
             <a
               href="#why-us"
-              className="text-white text-sm font-poppins font-medium block mb-4 ml-10"
+              className="text-white text-sm font-poppins  block mb-4 ml-10"
             >
               Why Us
             </a>
             <a
               href="#our-users"
-              className="text-white text-sm font-poppins font-medium block mb-4 ml-10"
+              className="text-white text-sm font-poppins block mb-4 ml-10"
             >
               Our Users
             </a>
             <a
               href="#our-values"
-              className="text-white text-sm font-poppins font-medium block mb-4 ml-10"
+              className="text-white text-sm font-poppins block mb-4 ml-10"
             >
               Our Values
             </a>
@@ -56,30 +61,32 @@ const Footer = () => {
         </div>
 
         {/* Quick Links Section */}
-        <div className="w-1/4 mt-14">
-          <h2 className="text-white font-bold font-poppins text-lg text-left">Quick Links</h2>
-          <div className="mt-4">
+        <div className="w-1/4 mt-14 space-x-16">
+          <h2 className="text-white font-semibold font-poppins text-lg ml-16">
+            Quick Links
+          </h2>
+          <div className="mt-10">
             <a
               href="Home"
-              className="text-white text-sm font-medium font-poppins block mb-6"
+              className="text-white text-sm font-poppins block mb-6"
             >
               Home
             </a>
             <a
               href="#About-us"
-              className="text-white text-sm font-medium font-poppins block mb-4"
+              className="text-white text-sm  font-poppins block mb-4"
             >
               About Us
             </a>
             <a
               href="Products"
-              className="text-white text-sm font-medium font-poppins block mb-4"
+              className="text-white text-sm  font-poppins block mb-4"
             >
               Products
             </a>
             <a
               href="Blogs"
-              className="text-white text-sm font-medium font-poppins block mb-4"
+              className="text-white text-sm font-poppins block mb-4"
             >
               Blogs
             </a>

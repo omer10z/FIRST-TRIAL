@@ -2,7 +2,7 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <div className='bg-white mt-80 min-h-[40vh] space-y-4 relative'>
+    <div className='bg-white mt-[26rem] min-h-[40vh] space-y-4 relative'>
       <h1 className='text-xl text-[#544f4c] font-semibold mb-1 ml-[9.4rem] pt-10 font-poppins'>Our Services</h1>
       <p className='text-6xl font-bold  ml-36 text-[#252220] -mb-20 font-poppins'>Providing Signature</p>
       <p className='text-6xl font-bold   text-[#252220] ml-36 font-poppins'>Interior Design Services</p>

@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa";
 
 const Testimonial = () => {
   return (
-    <div className="relative bg-[#353535] min-h-[130vh] flex flex-col justify-center items-center p-8 mt-12">
+    <div className="relative bg-[#353535] min-h-[130vh] flex flex-col justify-center items-center p-8 -mt-8">
       <h1 className='text-2xl font-poppins text-center mb-6' style={{ color: '#c3c3c3' }}>Testimonial</h1>
 
       <div className="flex flex-col items-center mb-[2rem]">

@@ -84,7 +84,6 @@ const Design = () => {
           <div className="ml-8 mt-6">
             <p className="font-poppins text-lg text-[#84807e] group-hover:text-[#84807e] transition -mt-[2rem]">
               {" "}
-          
               One of the primary responsibilities of an interior agency is to
             </p>
             <div className="flex items-center mt-2">

@@ -53,7 +53,7 @@ const Form = () => {
       <img
         src={formimg}
         alt="Form"
-        className="rounded-xl ml-[51rem] w-[500px] z-10 relative -mt-[32.7rem] h-[74vh]"
+        className="rounded-3xl ml-[51rem] w-[500px] z-10 relative -mt-[32.7rem] h-[74vh]"
       />
     </div>
   );
